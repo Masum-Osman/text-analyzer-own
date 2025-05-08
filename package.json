@@ -1,0 +1,16 @@
+{
+  "name": "text-analyzer",
+  "version": "1.0.0",
+  "description": "A text analyzer application with authentication and caching",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Masum-Osman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
