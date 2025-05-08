@@ -4,7 +4,10 @@
   "description": "A text analyzer application with authentication and caching",
   "main": "dist/server.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "author": "Masum-Osman",
   "license": "ISC",
